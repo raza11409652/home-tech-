@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GalleryHolder"
+    android:orientation="vertical">
+
+    <com.github.chrisbanes.photoview.PhotoView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <LinearLayout
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:padding="@dimen/dr_padding"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/budgetCalc"
+            android:text="@string/calc_budget_w"
+            android:theme="@style/AccentBtn"
+            android:layout_weight="1"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/wish"
+            android:text="@string/wishlist_add"
+            android:theme="@style/PrimaryButton"
+            android:layout_weight="1"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</RelativeLayout>

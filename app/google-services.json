@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "323808721997",
+    "firebase_url": "https://cadproject-hackdroidbykhan.firebaseio.com",
+    "project_id": "cadproject-hackdroidbykhan",
+    "storage_bucket": "cadproject-hackdroidbykhan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:323808721997:android:5502a3e5f17c7d39",
+        "android_client_info": {
+          "package_name": "com.cadproject.hackdroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "323808721997-h32tt2fk9po5luu8f86l8sqiv5rb8llh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cadproject.hackdroid",
+            "certificate_hash": "2a5ac2436c650c4691aa0d238bd3aa4fa2d4b9f2"
+          }
+        },
+        {
+          "client_id": "323808721997-07q6laetuqfm5e4cb47s607u5o72aavb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYVkp2YLrzjCL_VwS-VyGFWD4YoplIWu8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "323808721997-07q6laetuqfm5e4cb47s607u5o72aavb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

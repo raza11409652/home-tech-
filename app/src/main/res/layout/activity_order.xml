@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Order" android:padding="@dimen/parent_padding">
+    <EditText
+        android:id="@+id/phone"
+        android:inputType="number"
+        android:background="@drawable/input_back"
+        android:hint="@string/hint_mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/email"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="@dimen/btn_padding"
+        android:background="@drawable/input_back"
+        android:hint="@string/hint_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/width"
+        android:inputType="number"
+        android:layout_marginTop="@dimen/btn_padding"
+        android:background="@drawable/input_back"
+        android:hint="@string/plot_size_width"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/height"
+        android:inputType="number"
+        android:layout_marginTop="@dimen/btn_padding"
+        android:background="@drawable/input_back"
+        android:hint="@string/plot_size_height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/requirement"
+        android:layout_marginTop="@dimen/btn_padding"
+        android:hint="@string/requirement"
+        android:lines="5"
+        android:background="@drawable/input_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/save"
+        android:textColor="@color/white"
+        android:text="@string/requirement_up"
+        android:drawablePadding="@dimen/btn_padding"
+        android:drawableRight="@drawable/arrow_right"
+        android:background="@drawable/btn_style"
+        android:layout_marginTop="@dimen/btn_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

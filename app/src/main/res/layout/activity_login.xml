@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:padding="@dimen/parent_padding">
+
+    <TextView
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="@dimen/title_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/login_to_accnt"
+        />
+    <LinearLayout
+        android:layout_marginTop="@dimen/margin_50"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_marginTop="@dimen/margin_top_view"
+            android:hint="@string/hint_email"
+            android:drawableStart="@drawable/ic_email_black_24dp"
+            android:drawablePadding="@dimen/dr_padding"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/input_back"
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_marginTop="@dimen/margin_top_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_psd"
+            android:drawableStart="@drawable/ic_lock_black_24dp"
+            android:drawablePadding="@dimen/dr_padding"
+            android:inputType="textPassword"
+            android:background="@drawable/input_back"
+            />
+        <Button
+            android:id="@+id/login"
+            android:drawableEnd="@drawable/arrow_right"
+            android:drawablePadding="@dimen/dr_padding"
+            android:layout_marginTop="@dimen/margin_top_view"
+            android:textColor="@color/icons"
+            android:background="@drawable/btn_round_accent_gradient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@string/login"
+            />
+        <Button
+            android:id="@+id/forgetPassword"
+            android:theme="@style/PrimaryFlatButton"
+            android:text="@string/forget"
+            android:layout_marginTop="@dimen/margin_top_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

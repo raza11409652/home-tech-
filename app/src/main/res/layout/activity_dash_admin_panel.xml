@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashAdminPanel" android:orientation="vertical">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.CardView
+            android:id="@+id/upload"
+            android:layout_margin="2sp"
+            android:layout_weight="1"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:padding="@dimen/btn_padding"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/file"
+                    android:layout_gravity="center"
+                    android:layout_width="128sp"
+                    android:layout_height="128sp" />
+                <TextView
+                    android:padding="@dimen/btn_padding"
+                    android:textAlignment="center"
+                    android:text="@string/upload"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/list"
+            android:layout_margin="2sp"
+            android:layout_weight="1"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:padding="@dimen/btn_padding"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/test"
+                    android:layout_gravity="center"
+                    android:layout_width="128sp"
+                    android:layout_height="128sp" />
+                <TextView
+                    android:padding="@dimen/btn_padding"
+                    android:textAlignment="center"
+                    android:text="@string/planList"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.CardView
+            android:id="@+id/order"
+            android:layout_margin="2sp"
+            android:layout_weight="1"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:padding="@dimen/btn_padding"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/responsive"
+                    android:layout_gravity="center"
+                    android:layout_width="128sp"
+                    android:layout_height="128sp" />
+                <TextView
+                    android:padding="@dimen/btn_padding"
+                    android:textAlignment="center"
+                    android:text="@string/order"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/logout"
+            android:layout_margin="2sp"
+            android:layout_weight="1"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:padding="@dimen/btn_padding"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/logoutp"
+                    android:layout_gravity="center"
+                    android:layout_width="128sp"
+                    android:layout_height="128sp" />
+                <TextView
+                    android:padding="@dimen/btn_padding"
+                    android:textAlignment="center"
+                    android:text="@string/logout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</LinearLayout>

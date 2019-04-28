@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/home"
+        android:iconTint="@color/primary_dark"
+        ></item>
+
+    <item android:id="@+id/budgetCalc"
+        android:iconTint="@color/primary_dark"
+        android:title="@string/budget"
+        android:icon="@drawable/calc"
+        ></item>
+    <item android:id="@+id/wish"
+        android:iconTint="@color/primary_dark"
+        android:title="@string/wishlist"
+        android:icon="@drawable/wishlist"
+        ></item>
+    <item android:id="@+id/order"
+        android:iconTint="@color/primary_dark"
+        android:title="@string/order"
+        android:icon="@drawable/wishlist"
+        ></item>
+    <item android:id="@+id/vastu"
+        android:iconTint="@color/primary_dark"
+        android:title="@string/vastu"
+        android:icon="@drawable/house_1"
+        ></item>
+    <item android:id="@+id/profile"
+        android:title="Profile"
+        android:iconTint="@color/primary_dark"
+        android:icon="@drawable/profile"
+        ></item>
+    <item
+        android:iconTint="@color/primary_dark"
+        android:icon="@drawable/blue"
+        android:id="@+id/about"
+        android:title="@string/about_us"
+        ></item>
+
+    <item android:id="@+id/logout"
+        android:iconTint="@color/primary_dark"
+        android:title="@string/logout"
+        android:icon="@drawable/logout"
+        ></item>
+
+
+
+
+</menu>

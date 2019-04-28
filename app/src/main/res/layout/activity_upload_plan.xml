@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadPlan"
+    android:padding="@dimen/dr_padding"
+    android:orientation="vertical">
+ <android.support.v4.widget.NestedScrollView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+  <LinearLayout
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+   <ImageButton
+       android:id="@+id/image_title"
+       android:scaleType="centerCrop"
+       android:layout_width="match_parent"
+       android:layout_height="180sp"
+       android:src="@drawable/add_btn"
+       />
+   <LinearLayout
+       android:weightSum="2"
+       android:orientation="horizontal"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+    <ImageButton
+        android:id="@+id/image_first"
+        android:background="@color/white"
+        android:src="@drawable/add_camera"
+        android:layout_weight="1"
+        android:layout_width="0sp"
+        android:layout_height="wrap_content" />
+    <ImageButton
+        android:id="@+id/image_second"
+        android:background="@color/white"
+        android:src="@drawable/add_camera"
+        android:layout_weight="1"
+        android:layout_width="0sp"
+        android:layout_height="wrap_content" />
+   </LinearLayout>
+   <EditText
+       android:inputType="text"
+       android:id="@+id/plan_title"
+       android:hint="@string/title"
+       android:background="@drawable/input_back"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+   <EditText
+       android:inputType="number"
+       android:id="@+id/width"
+       android:layout_marginTop="@dimen/dr_padding"
+       android:hint="@string/plot_size_width"
+       android:background="@drawable/input_back"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+   <EditText
+       android:id="@+id/height"
+       android:inputType="number"
+       android:layout_marginTop="@dimen/dr_padding"
+       android:hint="@string/plot_size_height"
+       android:background="@drawable/input_back"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+   <EditText
+       android:id="@+id/floor"
+       android:inputType="number"
+       android:layout_marginTop="@dimen/dr_padding"
+       android:hint="@string/floor"
+       android:background="@drawable/input_back"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+
+   <Button
+       android:id="@+id/save"
+       android:textColor="@color/white"
+       android:layout_marginTop="@dimen/margin_top_view"
+       android:text="@string/add"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@drawable/btn_round_accent_gradient"
+       />
+  </LinearLayout>
+ </android.support.v4.widget.NestedScrollView>
+</LinearLayout>
